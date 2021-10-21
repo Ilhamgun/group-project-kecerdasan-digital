@@ -1,4 +1,4 @@
-/* Mulai code Anda dari baris terakhir */
+
 
 * {
     box-sizing: border-box;
@@ -147,6 +147,16 @@
   @media (max-width: 1000px) {
     .contents {
       flex-wrap: wrap;
+    }
+    .content {
+      width: 50%;
+      margin: 20px 20px;
+    }
+  }
+
+ @media (max-width: 670px) {
+    .contents {
+      flex-wrap: column;
     }
     .content {
       width: 50%;
